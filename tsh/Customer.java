@@ -26,7 +26,32 @@ public class Customer
     public void setCustomerId(int iCId)
     {
         iCustomerId = iCId;
+        return;
     }
     
+    public void setTitle(String szT)
+    {
+        szTitle = szT;
+        return;
+    }
     
+    public void setFirstName(String szF)
+    {
+        szFirst_Name = szF;
+        return;
+    }
+    
+    public void setHouseNumber(int iH)
+    {
+        iHouse_Number = iH;
+        return;
+    }
+    
+    public void setStreet(String szSt)
+    {
+    	szStreet = szSt;
+    	return;
+    }
+    
+    public void setTown
 }
