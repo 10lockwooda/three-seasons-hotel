@@ -21,7 +21,7 @@ public class Booking
     
     public Booking(int BId, int CId, int RId, String ETA, String ETD, boolean p)
     {
-        this();
+        this(); //test
         setBookingId(BId);
         setCustomerId(CId);
         setRoomId(RId);
